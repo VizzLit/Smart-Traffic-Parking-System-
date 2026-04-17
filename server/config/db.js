@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
   try {
-    const uri = "mongodb+srv://vedant:test123@multirole.8tivzub.mongodb.net/trafficDB?retryWrites=true&w=majority";
+   const uri = "mongodb+srv://vedant:admin123@multirole.8tivzub.mongodb.net/traffic_db?retryWrites=true&w=majority";
     await mongoose.connect(uri);
     console.log('✅ MongoDB connected successfully');
   } catch (error) {

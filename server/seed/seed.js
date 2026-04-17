@@ -10,6 +10,7 @@
  * - 8 traffic zones with historical congestion data
  * - Sample bookings
  */
+require('dotenv').config();
 const mongoose = require('mongoose');
 const User = require('../models/User');
 const ParkingLot = require('../models/ParkingLot');
@@ -17,7 +18,7 @@ const ParkingSlot = require('../models/ParkingSlot');
 const Booking = require('../models/Booking');
 const TrafficData = require('../models/TrafficData');
 
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/smart_traffic_parking';
+const MONGODB_URI = process.env.MONGO_URI;
 
 // ── Parking Lot Data ──────────────────────────────────────────────
 const parkingLots = [
