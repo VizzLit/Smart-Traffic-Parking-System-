@@ -1,4 +1,4 @@
-# 🚗 AI-Based Smart Traffic & Parking Management System
+# 🚗 Smart Traffic & Parking Management System
 
 A full-stack web application combining smart parking management with real-time traffic congestion monitoring. Features include dynamic pricing, traffic heatmaps, congestion prediction, and nearest parking suggestion using shortest-path algorithms.
 
